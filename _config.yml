@@ -1,0 +1,46 @@
+### REQUIRED SETTINGS ###
+
+# Set a plain language title for the site.
+title: Site Nav Test Drive
+
+# Write a short description for the site. This is used for "meta description."
+description: Try out new navigation with usability tests in realtime on a working site
+
+# Enable for live hosting on GitHub Pages.
+# It should start with a slash (/) and then match the name of your repository exactly.
+baseurl: /site-nav-test-drive
+
+# =============================================================================
+
+### TEST SITE SETTINGS ###
+
+# The URL of the site you want to test.
+test-site: "https://www.usa.gov/"
+
+# The name of the site you want to appear in the header section.
+test-site-name: "USA.gov"
+
+# The amount of offsite needed to cover the test site nav with the new nav.
+# Increase the negative number value to move the test site "up" so more of it is covered by the new nav.
+nav-offset: -24
+
+# The primary brand color to match the new nav with the test site.
+# It should be a dark color in hex format (e.g., #a23737) that contrasts well with white.
+# If in doubt, use a color from grade 50 or higher from USWDS System Color Tokens: https://designsystem.digital.gov/design-tokens/color/system-tokens/
+brand-color: "#a23737"
+
+# =============================================================================
+
+### OPTIONAL SETTINGS ###
+
+# Set the language for the site. Used for "html lang." Default is English.
+lang: en
+
+# Add Google Analytics if needed. Replace placeholder with site ID.
+ga: UA-XXXXX-Y
+
+# Avoid GitHub API authentication when building locally. (Not working)
+github: [metadata]
+
+# Remove generation of additional style.css
+theme: null

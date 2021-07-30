@@ -1,0 +1,47 @@
+---
+---
+.usa-button, .usa-button:hover {
+    background-color: {{ site.brand-color }};
+  }
+  .usa-header--extended .usa-nav__primary-item > .usa-current:hover {
+    color: {{ site.brand-color }};
+  }
+  .usa-header--extended .usa-nav__primary-item > .usa-current::after {
+    background-color: {{ site.brand-color }};
+  }
+  .usa-nav__primary button:hover {
+    color: {{ site.brand-color }};
+    border-color: {{ site.brand-color }};
+  }
+  .usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover::after {
+    background-color: {{ site.brand-color }};
+  }
+  .usa-nav__submenu {
+    background-color: {{ site.brand-color }};
+  }
+  .usa-nav__primary button[aria-expanded=true] {
+    color: white;
+    background-color: {{ site.brand-color }};
+  }
+  .usa-nav__secondary-links a:hover {
+    color: {{ site.brand-color }};
+  }
+  
+  @media (max-width: 1023px) {
+    .usa-nav__primary a:not(.usa-button):not(.usa-current) {
+      color: white;
+      background-color: {{ site.brand-color }};
+    }
+    .usa-nav__primary a:not(.usa-button):not(.usa-current):hover {
+      color: white;
+      text-decoration: underline;
+    }
+    .usa-nav__primary .usa-current {
+      color: {{ site.brand-color }};
+    }
+  }
+  
+  .usa-menu-btn, .usa-menu-btn:hover {
+    background-color: {{ site.brand-color }};
+  }
+  
