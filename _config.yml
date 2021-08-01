@@ -27,7 +27,7 @@ nav-offset: -24
 # The primary brand color to match the new nav with the test site.
 # It should be a dark color in hex format (e.g., #a23737) that contrasts well with white.
 # If in doubt, use a color from grade 50 or higher from USWDS System Color Tokens: https://designsystem.digital.gov/design-tokens/color/system-tokens/
-brand-color: "#1c304a"
+brand-color: "#c53b1d"
 
 # =============================================================================
 
