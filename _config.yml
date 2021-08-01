@@ -1,14 +1,14 @@
 ### REQUIRED SETTINGS ###
 
 # Set a plain language title for the site.
-title: Site Nav Test Drive
+title: Kayla Testing
 
 # Write a short description for the site. This is used for "meta description."
-description: Try out new navigation with usability tests in realtime on a working site
+description: This is Kayla testing out the site nav project
 
 # Enable for live hosting on GitHub Pages.
 # It should start with a slash (/) and then match the name of your repository exactly.
-baseurl: /site-nav-test-drive
+baseurl: /kayla-testing
 
 # =============================================================================
 
