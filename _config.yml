@@ -15,10 +15,10 @@ baseurl: /kayla-testing
 ### TEST SITE SETTINGS ###
 
 # The URL of the site you want to test.
-test-site: "https://www.usa.gov/"
+test-site: "https://18f.gsa.gov/"
 
 # The name of the site you want to appear in the header section.
-test-site-name: "USA.gov"
+test-site-name: "18f.gov"
 
 # The amount of offsite needed to cover the test site nav with the new nav.
 # Increase the negative number value to move the test site "up" so more of it is covered by the new nav.
@@ -27,7 +27,7 @@ nav-offset: -24
 # The primary brand color to match the new nav with the test site.
 # It should be a dark color in hex format (e.g., #a23737) that contrasts well with white.
 # If in doubt, use a color from grade 50 or higher from USWDS System Color Tokens: https://designsystem.digital.gov/design-tokens/color/system-tokens/
-brand-color: "#a23737"
+brand-color: "#1c304a"
 
 # =============================================================================
 
