@@ -15,7 +15,7 @@ baseurl: /kayla-testing
 ### TEST SITE SETTINGS ###
 
 # The URL of the site you want to test.
-test-site: "https://18f.gsa.gov"
+test-site: "https://www.usa.gov/"
 
 # The name of the site you want to appear in the header section.
 test-site-name: "18f.gov"
